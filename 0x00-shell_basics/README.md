@@ -9,3 +9,4 @@ All the Scripts in this folder and their functions:
 7-movethatfile will move a file named betty to my_first_directory
 8-firstdelete will delte the file betty in my_first_directory
 9-firstdirdeletion will delete the dir name my_first_directory
+10-back will take you back to the parent directory
