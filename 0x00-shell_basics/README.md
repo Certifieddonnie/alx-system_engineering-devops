@@ -14,3 +14,5 @@ All the Scripts in this folder and their functions:
 12-file_type will tell the type of filt named iamafile
 13-symbolic_link created a link in the current directory.
 14-copy_html will copy all html files for the current working directory to the parent directory. 
+
+100-lets_move will move all files starting with uppercase to the /tmp/u directory
