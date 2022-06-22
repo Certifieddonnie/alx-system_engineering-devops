@@ -7,3 +7,4 @@ All the Scripts in this folder and their functions:
 5-listfilesdigitonly shows the user ID and files in long format. 
 6-firstdirectory creates a directory in the /tmp/ directory
 7-movethatfile will move a file named betty to my_first_directory
+8-firstdelete will delte the file betty in my_first_directory
