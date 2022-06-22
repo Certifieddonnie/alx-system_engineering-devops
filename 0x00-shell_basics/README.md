@@ -4,3 +4,4 @@ All the Scripts in this folder and their functions:
 2-bring_me_home takes you to the user home directory.
 3-listfiles shows the files in a directory in a long format
 4-listmorefiles shows the files in a directory in a long format and well detailed
+5-listfilesdigitonly shows the user ID and files in long format. 
