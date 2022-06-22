@@ -18,4 +18,4 @@ All the Scripts in this folder and their functions:
 100-lets_move will move all files starting with uppercase to the /tmp/u directory
 101-clean_emacs will delete all files ending with ~ in the working directory
 102-tree will create the directories welcome, to and school
-
+103-commas will list the files in the working directory separated by commas.
