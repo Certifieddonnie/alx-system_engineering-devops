@@ -10,3 +10,4 @@ All the Scripts in this folder and their functions:
 8-firstdelete will delte the file betty in my_first_directory
 9-firstdirdeletion will delete the dir name my_first_directory
 10-back will take you back to the parent directory
+11-back will list the files in current directory, previous directory, and /boot
