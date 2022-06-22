@@ -12,3 +12,4 @@ All the Scripts in this folder and their functions:
 10-back will take you back to the parent directory
 11-back will list the files in current directory, previous directory, and /boot
 12-file_type will tell the type of filt named iamafile
+13-symbolic_link created a link in the current directory.
