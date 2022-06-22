@@ -11,3 +11,4 @@ All the Scripts in this folder and their functions:
 9-firstdirdeletion will delete the dir name my_first_directory
 10-back will take you back to the parent directory
 11-back will list the files in current directory, previous directory, and /boot
+12-file_type will tell the type of filt named iamafile
