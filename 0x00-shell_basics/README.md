@@ -19,3 +19,5 @@ All the Scripts in this folder and their functions:
 101-clean_emacs will delete all files ending with ~ in the working directory
 102-tree will create the directories welcome, to and school
 103-commas will list the files in the working directory separated by commas.
+school.mgc will view files that contains the string SCHOOL
+
