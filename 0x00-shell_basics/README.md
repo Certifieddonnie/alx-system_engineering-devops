@@ -13,3 +13,4 @@ All the Scripts in this folder and their functions:
 11-back will list the files in current directory, previous directory, and /boot
 12-file_type will tell the type of filt named iamafile
 13-symbolic_link created a link in the current directory.
+14-copy_html will copy all html files for the current working directory to the parent directory. 
