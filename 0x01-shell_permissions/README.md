@@ -16,5 +16,7 @@ The following are Shell Permissions scripts;
 
 100-change owner and group: changes the user and group of a working directory
 101-SYMBOLIC-LINK_PERMISSIONS : changes the owner of _hello to vincent and staff. 
+102-IF-ONLY : CHANGES hello file to betty if user is guillaume
+103-star-wars : plays the STARWARS IV EPISODE
 
 
