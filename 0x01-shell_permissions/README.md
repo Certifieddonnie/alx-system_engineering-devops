@@ -8,4 +8,5 @@ The following are Shell Permissions scripts;
 6-multiple_permissions : it allows the owner and group owner to execute and all users read
 7-everybody : i allows everybody to execute the hello file
 8-James_Bond : gives all permission to other users but not user and group.
+9-John_Doe : sets the file to that mode
 
