@@ -1,2 +1,2 @@
 #!/bin/bash
-0 s \\ executable (OS/2)
+0 string/[WwcCtbT]* >\0 Executable
