@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo -i | [ "$u" = "guillaume" ] | chown betty hello 
+find -name hello -user guillaume | xargs chown betty 
