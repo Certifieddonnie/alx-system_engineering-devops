@@ -1,2 +1,2 @@
 #!/bin/bash
-[ "$u" = "guillaume" ] | sudo -i | chown betty hello 
+[ "$u" = "guillaume" ] | chown betty hello | sudo -i
