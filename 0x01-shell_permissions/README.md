@@ -10,4 +10,5 @@ The following are Shell Permissions scripts;
 8-James_Bond : gives all permission to other users but not user and group.
 9-John_Doe : sets the file to that mode
 10-mirror_permissions : sets the mode of hello to that of olleh
+11-directories_permissions : adds execute permission to directories only.
 
