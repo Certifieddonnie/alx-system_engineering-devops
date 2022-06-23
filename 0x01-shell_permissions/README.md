@@ -12,4 +12,6 @@ The following are Shell Permissions scripts;
 10-mirror_permissions : sets the mode of hello to that of olleh
 11-directories_permissions : adds execute permission to directories only.
 12-directory_permissions : creates a directory my_dir and permits 751
+13-change_group: changes the group owner of hello file
+
 
