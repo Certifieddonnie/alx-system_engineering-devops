@@ -14,4 +14,5 @@ The following are Shell Permissions scripts;
 12-directory_permissions : creates a directory my_dir and permits 751
 13-change_group: changes the group owner of hello file
 
+100-change owner and group: changes the user and group of a working directory
 
