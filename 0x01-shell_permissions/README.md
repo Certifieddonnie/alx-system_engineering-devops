@@ -6,4 +6,5 @@ The following are Shell Permissions scripts;
 4-empty : it creates an empty file called hello
 5-execute : it adds the execute permit to the owner of hello file
 6-multiple_permissions : it allows the owner and group owner to execute and all users read
+7-everybody : i allows everybody to execute the hello file
 
