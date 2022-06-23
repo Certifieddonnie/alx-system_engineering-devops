@@ -15,4 +15,6 @@ The following are Shell Permissions scripts;
 13-change_group: changes the group owner of hello file
 
 100-change owner and group: changes the user and group of a working directory
+101-SYMBOLIC-LINK_PERMISSIONS : changes the owner of _hello to vincent and staff. 
+
 
