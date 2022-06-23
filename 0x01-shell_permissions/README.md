@@ -9,4 +9,5 @@ The following are Shell Permissions scripts;
 7-everybody : i allows everybody to execute the hello file
 8-James_Bond : gives all permission to other users but not user and group.
 9-John_Doe : sets the file to that mode
+10-mirror_permissions : sets the mode of hello to that of olleh
 
