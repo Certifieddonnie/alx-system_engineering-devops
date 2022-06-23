@@ -11,4 +11,5 @@ The following are Shell Permissions scripts;
 9-John_Doe : sets the file to that mode
 10-mirror_permissions : sets the mode of hello to that of olleh
 11-directories_permissions : adds execute permission to directories only.
+12-directory_permissions : creates a directory my_dir and permits 751
 
