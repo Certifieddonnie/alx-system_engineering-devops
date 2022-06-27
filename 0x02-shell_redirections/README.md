@@ -7,4 +7,5 @@ Scripts for Shell redirections:
 5-firstlines; it displays the first 10 lines of the file , /etc/passwd
 6-third_line; it displays the third line of a file named iacta
 7-file it creates a file containing the text 'Best School'
+8-cwd_state; it displays the command ls -la in the file ls_cwd_content
 
