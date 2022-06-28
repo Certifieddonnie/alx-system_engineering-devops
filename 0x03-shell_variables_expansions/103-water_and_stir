@@ -1,2 +1,2 @@
 #!/bin/bash
-[base$bestchol]n=[base$water]$WATER+[base$stir]$STIR | echo n
+[base$bestchol]n=[base$water]$WATER+[base$stir]$STIR | echo $n
