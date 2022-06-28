@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | perl -ne 'print if (++$x)%2'
+perl -ne 'print if (++$x)%2'
