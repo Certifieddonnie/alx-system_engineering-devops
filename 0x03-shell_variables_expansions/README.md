@@ -14,4 +14,8 @@ Scripts for 0x03-shell_variables_expansions;
 12-combinations: prints all combination of two letters except oo
 13-print float; prints a number with two decimal place
 
+100-decimal_to_hexaDECIMAL; it converts decimal to hexadecimal
+101-rot13; encodes or decodes messages
+102-odd; it takes out lines that identified evenly
+103-water_and_stir ; it adds numbers of different bases
 
