@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+# A Script that creates a file containing its PID, displays a string indefinitely
+# and cant be terminated by the SIGTERM, SIGINT signals.
+
+
+function no_pkill()
+{
+	rm -f /var/run/myscript.pid
+	echo "I hate the kill command"
+	exit
+}
+
+function no_ctrlc()
+{
+	echo "Y U no love me?!"
+	exit
+}
+
+function no_quit()
+{
+	rm -f /var/run/myscript.pid
+}
+
+echo $$ >> /var/run/myscript.pid
+
+trap no_ctrlc SIGINT
+trap no_pkill SIGTERM
+trap no_quit SIGQUIT
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
