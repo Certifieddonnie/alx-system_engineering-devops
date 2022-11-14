@@ -15,14 +15,15 @@ else
 	elif [[ "$1" == stop ]]
 	then
 		echo "manage_my_process stopped"
-		kill "$(cat /var/run/my_process.pid)"
-		# pkill -f manage_my_process
+		# kill "$(cat /var/run/my_process.pid)"
+		pkill -15 manage_my_process
+		# kill -15 "$(pgrep -f manage_my_process)"
 		rm -f /var/run/my_process.pid
 
 	elif [[ "$1" == restart ]]
 	then
-		kill "$(cat /var/run/my_process.pid)"
-		# pkill -f manage_my_process
+		# kill "$(cat /var/run/my_process.pid)"
+		pkill -15 manage_my_process
 		rm -f /var/run/my_process.pid
 		./manage_my_process & touch /var/run/my_process.pid
 		echo "$!" > /var/run/my_process.pid
