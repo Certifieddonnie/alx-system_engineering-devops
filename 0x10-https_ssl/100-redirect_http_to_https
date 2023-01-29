@@ -34,12 +34,13 @@ defaults
 	errorfile 504 /etc/haproxy/errors/504.http
 
 frontend  donnie-frontend
-    bind *:80
+        bind *:80
 
 	# This is our new config that listens on port 443 for SSL connections
 	bind *:443 ssl crt /etc/ssl/www.certifieddonnie.tech/www.certifieddonnie.tech.pem
-    default_backend donnie-backend
+	http-request redirect scheme https code 301 unless { ssl_fc }        
+	default_backend donnie-backend
 backend donnie-backend
-	balance roundrobin
-	server 78419-web-01 35.175.130.79:80 check
-	server 78419-web-02 34.229.55.162:80 check
+        balance roundrobin
+        server 78419-web-01 35.175.130.79:80 check
+        server 78419-web-02 34.229.55.162:80 check
