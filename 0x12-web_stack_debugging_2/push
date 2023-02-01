@@ -2,13 +2,13 @@
 
 clear
 
-echo "Adding Git Files"
+printf "Adding Git Files"
 git add .
 
-echo "Committing Files\n"
+printf "Committing Files\n"
 git commit -m "$1"
 
-echo "Pushing Files to Remote Server\n"
+printf "Pushing Files to Remote Server\n"
 git push
 
 echo "Done!!"
