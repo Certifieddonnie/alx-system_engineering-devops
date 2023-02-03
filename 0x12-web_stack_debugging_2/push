@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+clear
+
+printf "Adding Git Files"
+git add .
+
+printf "Committing Files\n"
+git commit -m "$1"
+
+printf "Pushing Files to Remote Server\n"
+git push
+
+echo "Done!!"
