@@ -1,9 +1,11 @@
 # Puppet File to fix the Nginx Bug
 
-$str = "worker_processes 2;
-    worker_rlimit_nofile 8192;
-    events {
-    worker_connections 4096;
-    }"
-exec { 'sudo echo $str >> /etc/nginx/nginx.conf':
+exec { 'increase limit':
+  command  => "sed -i 's/15/4096/' /etc/default/nginx",
+  path    => '/usr/bin/:/usr/local/bin/:/bin/'
+}
+exec {'restart nginx':
+  command => 'sudo service nginx restart',
+  path    => '/usr/bin/:/usr/local/bin/:/bin/',
+  require => Exec['increase limit']
 }
